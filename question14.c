@@ -83,7 +83,7 @@ int main()
             break;
         case 4:
             printf("Exiting...\n");
-            break;
+            return 0;
         default:
             printf("Invalid choice.\n");
         }
